@@ -1,0 +1,138 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Weather Dashboard Container */
+  .weather-dashboard {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title */
+  .weather-dashboard h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Search Bar Container */
+  .search-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Search Input */
+  .search-bar input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Search and Save Buttons */
+  .search-bar button {
+    padding: 8px 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Saved Cities List */
+  .saved-cities {
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .saved-cities h3 {
+    color: #555;
+  }
+  
+  .saved-cities ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .saved-cities li {
+    cursor: pointer;
+    color: #007bff;
+    margin: 5px 0;
+  }
+  
+  .saved-cities li:hover {
+    text-decoration: underline;
+  }
+  
+  /* Weather Card */
+  .weather-card {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .weather-card h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .weather-card p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .weather-card img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .weather-card button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .weather-card button:hover {
+    background-color: #218838;
+  }
+  
+  /* Error Message */
+  .error {
+    color: #ff4d4f;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 600px) {
+    .search-bar input {
+      width: 100%;
+    }
+  
+    .weather-dashboard {
+      padding: 15px;
+    }
+  }
+  
